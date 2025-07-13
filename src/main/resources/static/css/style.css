@@ -1441,3 +1441,208 @@ textarea.form-control {
         padding: 1.5rem;
     }
 }
+/* ===========================
+   Responsive Layout Tweaks
+   =========================== */
+
+/* Large Tablets & Small Desktops */
+@media (max-width: 1200px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .hero-visual-inner {
+    width: 350px;
+    height: 350px;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background: var(--darker-color);
+    padding: 1rem 0;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-greeting {
+    justify-content: center;
+  }
+
+  .hero-visual {
+    margin-top: 2rem;
+  }
+
+  .hero-visual-inner {
+    width: 320px;
+    height: 320px;
+  }
+
+  .hero-stats {
+    display: none;
+  }
+
+  .about-container,
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-visual {
+    order: -1;
+  }
+
+  .about-image-container {
+    padding-top: 80%;
+  }
+
+  .timeline::before {
+    left: 40px;
+  }
+
+  .timeline-content {
+    width: calc(100% - 80px);
+    margin-left: 80px !important;
+  }
+
+  .timeline-date {
+    left: 0 !important;
+    right: auto !important;
+    top: -40px;
+  }
+
+  .timeline-icon {
+    left: 40px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .floating-shape {
+    display: none;
+  }
+}
+
+/* Large Phones & Small Tablets */
+@media (max-width: 768px) {
+  .header-container {
+    padding: 0 1rem;
+  }
+
+  .hero-title {
+    font-size: 2.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 5rem 0;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  .achievements-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    padding: 2rem;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .hero-visual-inner {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+/* Small Phones */
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero-greeting {
+    font-size: 1rem;
+  }
+
+  .about-heading,
+  .contact-heading {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .timeline-content {
+    padding: 1.5rem;
+  }
+
+  .hero-visual-inner {
+    width: 230px;
+    height: 230px;
+  }
+
+  .skill-item {
+    padding: 0.8rem;
+  }
+
+  .footer-logo {
+    font-size: 1.6rem;
+  }
+
+  .footer-text {
+    font-size: 0.9rem;
+  }
+}
