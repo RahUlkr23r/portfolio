@@ -1,0 +1,97 @@
+<!-- fragments/hero.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="hero-section">
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-greeting">Hi there, I'm</div>
+                <h1 class="hero-title"><span class="gradient-text">Rahul Kumar</span></h1>
+                <h2 class="hero-subtitle">Full-Stack Developer & B.Tech CSE Final-Year Student</h2>
+                <p class="hero-description">
+                    I'm passionate about crafting modern web applications using technologies like React, Spring Boot, and MySQL. I love solving real-world problems and turning ideas into scalable, user-friendly solutions. Currently building my journey as a full-stack developer.
+                </p>
+
+                <!-- Buttons Section -->
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Get In Touch
+                    </a>
+                    <a th:href="@{/Rahul_Kumar_Resume.pdf}" download class="btn btn-outline">
+                        <i class="fas fa-file-download"></i> Download Resume
+                    </a>
+                </div>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="tel:+919334398684" class="social-link">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a href="mailto:rahulkumar8684singh@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rahulkumarsingh" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/RahUlkr23r" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Visual Section -->
+            <div class="hero-visual">
+                <div class="hero-visual-inner">
+                    <div class="hero-visual-frame">
+                        <img src="/images/profile.jpg" alt="Profile"
+                             style="width: 90%; height: 90%; object-fit: cover; border-radius: 15px;">
+                    </div>
+                    <div class="hero-visual-frame"></div>
+                    <div class="hero-visual-frame"></div>
+                </div>
+
+                <!-- Hero Stats -->
+                <div class="hero-stats stats-1">
+                    <div class="hero-stats-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Developer</div>
+                        <div class="hero-stats-value">E-commerce Project</div>
+                    </div>
+                </div>
+                <div class="hero-stats stats-2">
+                    <div class="hero-stats-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Student</div>
+                        <div class="hero-stats-value">B.Tech CSE (Final Year)</div>
+                    </div>
+                </div>
+                <div class="hero-stats stats-3">
+                    <div class="hero-stats-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Stack</div>
+                        <div class="hero-stats-value">React & Spring Boot</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Down Indicator -->
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-indicator-line">
+                <div class="scroll-indicator-dot"></div>
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>

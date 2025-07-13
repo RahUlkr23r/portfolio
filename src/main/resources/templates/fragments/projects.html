@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="projects-section">
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-title-container">
+        <h2 class="section-title">Portfolio Showcase</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">
+          Carefully crafted projects demonstrating technical expertise and problem-solving abilities
+        </p>
+      </div>
+
+      <div class="projects-container">
+
+        <!-- E-Commerce Website Project -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="carousel-container">
+              <div class="carousel-slides">
+                <div class="carousel-slide active">
+                  <img src="/images/ecommerce1.png" alt="E-Commerce Homepage" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                  <img src="/images/ecommerce2.png" alt="E-Commerce Product Page" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                  <img src="/images/ecommerce3.png" alt="E-Commerce Dashboard" loading="lazy">
+                </div>
+              </div>
+              <div class="carousel-controls">
+                <button class="carousel-prev" aria-label="Previous slide">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 18l-6-6 6-6"/>
+                  </svg>
+                </button>
+                <button class="carousel-next" aria-label="Next slide">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18l6-6-6-6"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="carousel-indicators"></div>
+            </div>
+            <div class="project-overlay"></div>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">Cloudinary</span>
+              <span class="project-tag">Material UI</span>
+              <span class="project-tag">REST API</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Full-Stack E-Commerce Platform</h3>
+              <div class="project-links">
+                <a href="https://github.com/RahUlkr23r/ecommerce" class="project-link" target="_blank" rel="noopener noreferrer">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>Source Code</span>
+                </a>
+              </div>
+            </div>
+            <p class="project-description">
+              A comprehensive e-commerce solution with complete frontend and backend integration, designed to handle real-world online shopping requirements.
+            </p>
+            <div class="project-features">
+              <div class="feature">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>User authentication & role management</span>
+              </div>
+              <div class="feature">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Product catalog with categories & filters</span>
+              </div>
+              <div class="feature">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Secure payment processing</span>
+              </div>
+              <div class="feature">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Seller dashboard & inventory management</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Smart Contact Manager Project -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="carousel-container">
+              <div class="carousel-slides">
+                <div class="carousel-slide active">
+                  <img src="/images/scm1.png" alt="Dashboard View" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                  <img src="/images/scm2.png" alt="Add Contact Page" loading="lazy">
+                </div>
+                <div class="carousel-slide">
+                  <img src="/images/Screenshot 2025-07-13 105254.png" alt="Edit Contact Page" loading="lazy">
+                </div>
+              </div>
+              <div class="carousel-controls">
+                <button class="carousel-prev" aria-label="Previous slide">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 18l-6-6 6-6"/>
+                  </svg>
+                </button>
+                <button class="carousel-next" aria-label="Next slide">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18l6-6-6-6"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="carousel-indicators"></div>
+            </div>
+            <div class="project-overlay"></div>
+            <div class="project-tags">
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">Thymeleaf</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">JPA/Hibernate</span>
+              <span class="project-tag">Spring Security</span>
+              <span class="project-tag">Bootstrap 5</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Smart Contact Manager</h3>
+              <div class="project-links">
+                <a href="https://github.com/RahUlkr23r/spring-boot-projects" class="project-link" target="_blank" rel="noopener noreferrer">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>Source Code</span>
+                </a>
+              </div>
+            </div>
+            <p class="project-description">
+              A robust contact management system with advanced features for organizing personal and professional contacts efficiently.
+            </p>
+            <div class="project-features">
+              <div class="feature">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Secure authentication with Spring Security</span>
+              </div>
+              <div class="feature">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Role-based access control (Admin/User)</span>
+              </div>
+              <div class="feature">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Image upload and storage system</span>
+              </div>
+              <div class="feature">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Advanced search with pagination</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <style>
+    /* Base Styles */
+    :root {
+      --primary-color: #3498db;
+      --secondary-color: #2c3e50;
+      --text-color: #34495e;
+      --light-text: #7f8c8d;
+      --bg-color: #f8f9fa;
+      --card-bg: #ffffff;
+      --border-radius: 8px;
+      --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    /* Section Styling */
+    .projects {
+      padding: 6rem 0;
+      background-color: var(--bg-color);
+      position: relative;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .section-title-container {
+      text-align: center;
+      margin-bottom: 4rem;
+      position: relative;
+    }
+
+    .section-title {
+      font-size: 2.75rem;
+      font-weight: 700;
+      color: var(--secondary-color);
+      margin-bottom: 1.25rem;
+      position: relative;
+      display: inline-block;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      width: 60px;
+      height: 4px;
+      background: var(--primary-color);
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 2px;
+    }
+
+    .section-subtitle {
+      font-size: 1.1rem;
+      color: var(--light-text);
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    /* Projects Grid */
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 2.5rem;
+    }
+
+    /* Project Card */
+    .project-card {
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: var(--box-shadow);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .project-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    }
+
+    /* Project Image Area */
+    .project-image {
+      position: relative;
+      height: 250px;
+      overflow: hidden;
+    }
+
+    .project-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent 50%);
+      z-index: 1;
+    }
+
+    /* Tags */
+    .project-tags {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      padding: 0 15px;
+      z-index: 2;
+    }
+
+    .project-tag {
+      background: rgba(255, 255, 255, 0.9);
+      color: var(--secondary-color);
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Project Content */
+    .project-content {
+      padding: 1.75rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+
+    .project-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--secondary-color);
+      margin: 0;
+      line-height: 1.3;
+    }
+
+    .project-description {
+      color: var(--light-text);
+      margin-bottom: 1.5rem;
+      line-height: 1.7;
+      font-size: 0.95rem;
+    }
+
+    /* Features List */
+    .project-features {
+      margin-top: auto;
+    }
+
+    .feature {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      font-size: 0.9rem;
+      color: var(--text-color);
+    }
+
+    .feature svg {
+      margin-right: 10px;
+      flex-shrink: 0;
+    }
+
+    /* Links */
+    .project-links {
+      display: flex;
+      margin-left: 15px;
+    }
+
+    .project-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: var(--primary-color);
+      color: white;
+      border-radius: var(--border-radius);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.9rem;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+
+    .project-link:hover {
+      background: #2980b9;
+      transform: translateY(-2px);
+    }
+
+    .project-link svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Carousel Styling */
+    .carousel-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    .carousel-slides {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .carousel-slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.6s ease;
+    }
+
+    .carousel-slide.active {
+      opacity: 1;
+    }
+
+    .carousel-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    /* Carousel Controls */
+    .carousel-controls {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+      z-index: 3;
+      padding: 0 15px;
+      pointer-events: none;
+    }
+
+    .carousel-prev,
+    .carousel-next {
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: all;
+      backdrop-filter: blur(5px);
+    }
+
+    .carousel-prev:hover,
+    .carousel-next:hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
+
+    .carousel-prev svg,
+    .carousel-next svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    /* Carousel Indicators */
+    .carousel-indicators {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+      z-index: 3;
+    }
+
+    .indicator {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .indicator.active {
+      background: white;
+      transform: scale(1.2);
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 992px) {
+      .projects {
+        padding: 5rem 0;
+      }
+      
+      .section-title {
+        font-size: 2.5rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .projects-container {
+        grid-template-columns: 1fr;
+      }
+      
+      .project-image {
+        height: 220px;
+      }
+      
+      .project-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .project-links {
+        margin-left: 0;
+        margin-top: 1rem;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .section-title {
+        font-size: 2rem;
+      }
+      
+      .project-content {
+        padding: 1.5rem;
+      }
+      
+      .project-title {
+        font-size: 1.3rem;
+      }
+      
+      .project-tag {
+        font-size: 0.7rem;
+        padding: 4px 10px;
+      }
+    }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Initialize all carousels
+      document.querySelectorAll('.carousel-container').forEach(initCarousel);
+      
+      function initCarousel(container) {
+        const slides = container.querySelectorAll('.carousel-slide');
+        const prevBtn = container.querySelector('.carousel-prev');
+        const nextBtn = container.querySelector('.carousel-next');
+        const indicators = container.querySelectorAll('.indicator');
+        
+        let currentIndex = 0;
+        let slideInterval;
+        
+        // Show initial slide
+        showSlide(currentIndex);
+        startAutoSlide();
+        
+        // Navigation functions
+        function showSlide(index) {
+          slides.forEach((slide, i) => {
+            slide.classList.toggle('active', i === index);
+          });
+          
+          if (indicators.length > 0) {
+            indicators.forEach((indicator, i) => {
+              indicator.classList.toggle('active', i === index);
+            });
+          }
+        }
+        
+        function nextSlide() {
+          currentIndex = (currentIndex + 1) % slides.length;
+          showSlide(currentIndex);
+        }
+        
+        function prevSlide() {
+          currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+          showSlide(currentIndex);
+        }
+        
+        function goToSlide(index) {
+          currentIndex = index;
+          showSlide(currentIndex);
+          resetAutoSlide();
+        }
+        
+        function startAutoSlide() {
+          slideInterval = setInterval(nextSlide, 5000);
+        }
+        
+        function resetAutoSlide() {
+          clearInterval(slideInterval);
+          startAutoSlide();
+        }
+        
+        // Event listeners
+        nextBtn.addEventListener('click', () => {
+          nextSlide();
+          resetAutoSlide();
+        });
+        
+        prevBtn.addEventListener('click', () => {
+          prevSlide();
+          resetAutoSlide();
+        });
+        
+        // Pause on hover
+        container.addEventListener('mouseenter', () => {
+          clearInterval(slideInterval);
+        });
+        
+        container.addEventListener('mouseleave', startAutoSlide);
+        
+        // Touch events for mobile
+        let touchStartX = 0;
+        let touchEndX = 0;
+        
+        container.addEventListener('touchstart', (e) => {
+          touchStartX = e.changedTouches[0].screenX;
+          clearInterval(slideInterval);
+        }, {passive: true});
+        
+        container.addEventListener('touchend', (e) => {
+          touchEndX = e.changedTouches[0].screenX;
+          handleSwipe();
+          startAutoSlide();
+        }, {passive: true});
+        
+        function handleSwipe() {
+          const threshold = 50;
+          if (touchEndX < touchStartX - threshold) {
+            nextSlide();
+          } else if (touchEndX > touchStartX + threshold) {
+            prevSlide();
+          }
+        }
+      }
+    });
+  </script>
+</th:block>
+</html>
